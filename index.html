@@ -57,17 +57,17 @@
 
 				<section data-background="#EF5734">
 					<h2 style="color: #FFCC2F;">Some background</h2>
-					<p>Reusable/independent components</p>
-					<p>Speed up development</p>
-					<p>Angular directives</p>
-					<p>Bower components</p>
+					<p class="fragment">Reusable/independent components</p>
+					<p class="fragment">Speed up development</p>
+					<p class="fragment">Angular directives</p>
+					<p class="fragment">Bower components</p>
 
 					<aside class="notes">
-						- Build new development as reusable/independent components
-						- Faster development
-						- Creating Bower components
-						- Angular Directives
-						- All tools require NodeJs
+						- Build new development as reusable/independent components<br />
+						- Faster development<br />
+						- Creating Bower components<br />
+						- Angular Directives<br />
+						- All tools require NodeJs<br />
 					</aside>
 				</section>
 
@@ -78,9 +78,9 @@
 					<p>A package manager for the web</p>
 					<a href="http://www.bower.io">www.bower.io</a>
 					<aside class="notes">
-						- Bower is a package manager for the web
-						- Public packages (angular, jQuery)
-						- Install private package from git repo
+						- Bower is a package manager for the web<br />
+						- Public packages (angular, jQuery)<br />
+						- Install private package from git repo<br />
 					</aside>
 				</section>
 
@@ -106,8 +106,8 @@ $ bower install git://github.com/Kidde82/presentation-bower.git
 
 					<p>Package will be installed in the current directory</p>
 					<aside class="notes">
-						- NodeJS is required
-						- You can set up a private registry as well
+						- NodeJS is required<br />
+						- You can set up a private registry as well<br />
 					</aside>
 				</section>
 
@@ -130,9 +130,9 @@ $ bower install git://github.com/Kidde82/presentation-bower.git
 					<h2 style="color: #EF5734;">Bower package structure</h2>
 					<img data-src="images/bower-structure4.png" alt="Bower package structure" style="float:left;">
 					<aside class="notes">
-						- dist
-						- bower.json
-						- devDependencies will also be installed and need to be referenced
+						- dist<br />
+						- bower.json<br />
+						- devDependencies will also be installed and need to be referenced<br />
 					</aside>
 				</section>
 
@@ -143,9 +143,9 @@ $ bower install git://github.com/Kidde82/presentation-bower.git
 					<p>Automate and enhance your workflow</p>
 					<a href="http://www.gulp.com">www.gulp.com</a>
 					<aside class="notes">
-						- Compile ts to js
-						- Compile scss or less to css
-						- Minifying, concatenating
+						- Compile ts to js<br />
+						- Compile scss or less to css<br />
+						- Minifying, concatenating<br />
 						- Testing
 					</aside>
 				</section>
@@ -167,21 +167,21 @@ $ npm install -g gulp
 					<h2>gulpfile.js</h2>
 					<img data-src="images/gulpfile.png" alt="Gulpfile">
 					<aside class="notes">
-						- dependencies
-						- default task
-						- sass task
-							- Add files to stream, do something with the content in the stream, then write file to disk
-						- typescript task
+						- dependencies<br />
+						- default task<br />
+						- sass task<br />
+						- Add files to stream, do something with the content in the stream, then write file to disk<br />
+						- typescript task<br />
 					</aside>
 				</section>
 
 				<section data-background="#cf4646">
 					<h2>Example packages</h2>
-					<p>gulp-typescript - Compiles typescript to js, also create .d.ts</p>
-					<p>gulp-sass - Compiles sass files to css</p>
-					<p>gulp-uglify - Minify javascript</p>
-					<p>gulp-minify - Minify css</p>
-					<p>gulp-concat - Concatenate files</p>
+					<p class="fragment">gulp-typescript - Compiles typescript to js, also create .d.ts</p>
+					<p class="fragment">gulp-sass - Compiles sass files to css</p>
+					<p class="fragment">gulp-uglify - Minify javascript</p>
+					<p class="fragment">gulp-minify - Minify css</p>
+					<p class="fragment">gulp-concat - Concatenate files</p>
 					<aside class="notes">
 						-
 					</aside>
@@ -190,13 +190,13 @@ $ npm install -g gulp
 				<section data-background="#cf4646">
 					<h2>Workflow</h2>
 					<img data-src="images/gulpwatch.png" alt="Gulp watch">
-					<p>Gulp watch</p>
-					<p>Automatically run test</p>
-					<p>Code coverage</p>
-					<p>Webserver with live reload</p>
+					<p class="fragment">Gulp watch</p>
+					<p class="fragment">Automatically run test</p>
+					<p class="fragment">Code coverage</p>
+					<p class="fragment">Webserver with live reload</p>
 					<aside class="notes">
-						- You can create a task that only compiles and runs test on the changed files only
-						- Code coverage treshold
+						- You can create a task that only compiles and runs test on the changed files only<br />
+						- Code coverage treshold<br />
 					</aside>
 				</section>
 
@@ -215,8 +215,8 @@ $ npm install -g gulp
 					<p>Scaffolding tool for modern webapps</p>
 					<a href="http://www.yeoman.io">www.yeoman.io</a>
 					<aside class="notes">
-						- Public generators (angular, react, wordpress)
-						- Install private generators from git repo
+						- Public generators (angular, react, wordpress)<br />
+						- Install private generators from git repo<br />
 					</aside>
 				</section>
 
@@ -257,9 +257,9 @@ $ yo angular --typescript
 						</code>
 					</pre>
 					<aside class="notes">
-						- Installs all npm dependencies
-						- All bower dependencies
-						- Adds all template files with correct name
+						- Installs all npm dependencies<br />
+						- All bower dependencies<br />
+						- Adds all template files with correct name<br />
 					</aside>
 				</section>
 
@@ -295,11 +295,11 @@ $ yo angular --typescript
 					<h2 style="color: white;">index.js</h2>
 					<img data-src="images/yeomanindexjs.png" alt="Yeoman index js">
 					<aside class="notes">
-						- prompting
-						- writing
-						- install
-						- end
-						- private methods
+						- prompting<br />
+						- writing<br />
+						- install<br />
+						- end<br />
+						- private methods<br />
 					</aside>
 				</section>
 
